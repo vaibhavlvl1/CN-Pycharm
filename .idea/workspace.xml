@@ -28,20 +28,20 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/m67fr/Documents/GitHub/CN-Pycharm/IMP_algos"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/m67fr/Documents/GitHub/CN-Pycharm/IMP_algos&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\m67fr\Documents\GitHub\CN-Pycharm\IMP_algos" />
     </key>
   </component>
-  <component name="RunManager" selected="Python._Quick_Sort">
-    <configuration name="_7_last_index_of_num" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python._10_tower_of_hanoi">
+    <configuration name="_10_tower_of_hanoi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CN-Pycharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -53,7 +53,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/Recursion/_7_last_index_of_num.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/Recursion/_10_tower_of_hanoi.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python._10_tower_of_hanoi" />
         <item itemvalue="Python._Quick_Sort" />
         <item itemvalue="Python._Merge_Sort" />
         <item itemvalue="Python._9_remove_consecutive_duplicates" />
         <item itemvalue="Python._8_remove_x" />
-        <item itemvalue="Python._7_last_index_of_num" />
       </list>
     </recent_temporary>
   </component>
