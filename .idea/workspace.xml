@@ -40,7 +40,7 @@
       <recent name="C:\Users\m67fr\Documents\GitHub\CN-Pycharm\IMP_algos" />
     </key>
   </component>
-  <component name="RunManager" selected="Python._11_geometric_sum">
+  <component name="RunManager" selected="Python._14_recursive_multiplication">
     <configuration name="_10_tower_of_hanoi" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CN-Pycharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -83,7 +83,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_9_remove_consecutive_duplicates" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="_12_check_palidrome_recursive" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CN-Pycharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -95,7 +95,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/Recursion/_9_remove_consecutive_duplicates.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/Recursion/_12_check_palidrome_recursive.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -104,7 +104,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_Merge_Sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="_13_sum_of_digits" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CN-Pycharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,7 +116,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/Recursion/_Merge_Sort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/Recursion/_13_sum_of_digits.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -125,7 +125,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_Quick_Sort" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="_14_recursive_multiplication" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CN-Pycharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,7 +137,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/Recursion/_Quick_Sort.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/Recursion/_14_recursive_multiplication.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -148,11 +148,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python._14_recursive_multiplication" />
+        <item itemvalue="Python._13_sum_of_digits" />
+        <item itemvalue="Python._12_check_palidrome_recursive" />
         <item itemvalue="Python._11_geometric_sum" />
         <item itemvalue="Python._10_tower_of_hanoi" />
-        <item itemvalue="Python._Quick_Sort" />
-        <item itemvalue="Python._Merge_Sort" />
-        <item itemvalue="Python._9_remove_consecutive_duplicates" />
       </list>
     </recent_temporary>
   </component>

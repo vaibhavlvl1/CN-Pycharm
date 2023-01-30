@@ -15,3 +15,4 @@ def geometric_sum(k):
 
 
 print("%.5f" % geometric_sum(3))
+
