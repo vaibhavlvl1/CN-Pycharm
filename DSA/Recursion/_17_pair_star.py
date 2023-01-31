@@ -34,3 +34,13 @@ a*a*a*a
 
 """
 
+def pair_star(strr):
+    if len(strr)==1:
+        return strr
+
+    if strr[0]==strr[1]:
+        return strr[0]+"*"+pair_star(strr[1:])
+    else:
+        return strr[0]+pair_star(strr[1:])
+
+print(pair_star("aaaaabaaabbbbab"))
