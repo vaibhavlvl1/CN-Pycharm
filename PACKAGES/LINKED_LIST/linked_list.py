@@ -39,3 +39,19 @@ def linked_list_length(head):
         c = c+1
         temp = temp.next
     return c
+
+def linked_list_reverse(head):
+    """
+    By iterative method
+    :param head: head of ll
+    :return: new_head
+    """
+    curr = head
+    prev = None
+
+    while curr is not None:
+        save = curr.next
+        curr.next = prev
+        prev = curr
+        curr = save
+    return prev
