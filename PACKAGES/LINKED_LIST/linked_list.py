@@ -26,8 +26,16 @@ def linked_list_input():
             tail = tail.next
     return head
 
-def print_linked_list(head):
+def linked_list_print(head):
     while head is not None:
         print(head.data,end="-->")
         head = head.next
     print("None")
+
+def linked_list_length(head):
+    temp = head
+    c = 0
+    while temp is not None:
+        c = c+1
+        temp = temp.next
+    return c

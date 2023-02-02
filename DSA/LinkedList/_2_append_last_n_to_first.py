@@ -1,4 +1,4 @@
-from PACKAGES.LINKED_LIST import linked_list_input,print_linked_list
+from PACKAGES.LINKED_LIST import linked_list_input,linked_list_print
 
 """
  AppendLastNToFirst
@@ -60,5 +60,34 @@ We have been required to move the last 4 nodes to the front of the list. Here, "
 
 
 """
+
+from PACKAGES.LINKED_LIST import linked_list_input,linked_list_length,linked_list_print
+
 def append_last_n_to_first(head,n):
-    
+    length = linked_list_length(head)
+
+    tread = length - n
+
+    temp = head
+    prev = None
+
+    while temp is not None:
+        if tread ==0:
+            print(temp.data,prev.data)
+            prev.next = None
+
+            break
+        prev = temp
+        tread = tread - 1
+        temp = temp.next
+    tail = temp
+    while tail.next is not None:
+        tail = tail.next
+    tail.next = head
+    return temp
+
+head = linked_list_input()
+res_head = append_last_n_to_first(head,3)
+linked_list_print(res_head)
+
+

@@ -1,4 +1,4 @@
-from PACKAGES.LINKED_LIST import print_linked_list,linked_list_input
+from PACKAGES.LINKED_LIST import linked_list_print,linked_list_input
 
 
 def find_node(head,node_data,pos = 0):
