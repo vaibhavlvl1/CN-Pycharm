@@ -69,3 +69,12 @@ def linked_list_midpoint(head):
         slow = slow.next
         fast = fast.next.next
     return slow
+
+
+def linked_list_reverse_recursion(head):
+    if head.next is None:
+        return head
+    smallhead = rev_link_list_recursion(head.next)
+    head.next.next = head
+    head.next = None
+    return smallhead
