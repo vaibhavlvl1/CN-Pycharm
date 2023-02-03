@@ -55,3 +55,17 @@ def linked_list_reverse(head):
         prev = curr
         curr = save
     return prev
+
+
+def linked_list_midpoint(head):
+    """
+
+    :param head:
+    :return: midpoint node not the Data
+    """
+    slow = head
+    fast = head
+    while fast.next is not None and fast.next.next  is not None :
+        slow = slow.next
+        fast = fast.next.next
+    return slow
