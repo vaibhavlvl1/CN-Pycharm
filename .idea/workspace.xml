@@ -44,7 +44,7 @@
       <recent name="C:\Users\m67fr\Documents\GitHub\CN-Pycharm\PACKAGES" />
     </key>
   </component>
-  <component name="RunManager" selected="Python._9_even_after_odd_ll">
+  <component name="RunManager" selected="Python._11_swap_two_nodes">
     <configuration name="MERGE_SORT" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CN-Pycharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -66,7 +66,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_6_reverse_linked_list_recursion" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="_10_skip_m_delete_n" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CN-Pycharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -78,7 +78,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/LinkedList/_6_reverse_linked_list_recursion.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/LinkedList/_10_skip_m_delete_n.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -87,7 +87,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_7_merge_two_sorted_linked_lists" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="_11_swap_two_nodes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CN-Pycharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -99,7 +99,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/LinkedList/_7_merge_two_sorted_linked_lists.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/LinkedList/_11_swap_two_nodes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python._11_swap_two_nodes" />
+        <item itemvalue="Python._10_skip_m_delete_n" />
         <item itemvalue="Python._9_even_after_odd_ll" />
         <item itemvalue="Python._8_find_a_node_in_ll" />
         <item itemvalue="Python.MERGE_SORT" />
-        <item itemvalue="Python._7_merge_two_sorted_linked_lists" />
-        <item itemvalue="Python._6_reverse_linked_list_recursion" />
       </list>
     </recent_temporary>
   </component>
