@@ -1,62 +1,19 @@
-from sys import stdin, setrecursionlimit
-import queue
-
-setrecursionlimit(10 ** 6)
+from PACKAGES.BINARYTREE import tree_input
 
 
-# Following the structure used for Binary Tree
-class BinaryTreeNode:
-    def __init__(self, data):
-        self.data = data
-        self.left = None
-        self.right = None
-
-
-def getSum(root):
+def get_sum(root):
     if root is None:
         return 0
 
-    leftsum = getSum(root.left)
-    rightsum = getSum(root.right)
+    left_sum = get_sum(root.left)
+    right_sum = get_sum(root.right)
+    total_sum = root.data+left_sum+right_sum
 
-    return root.data + leftsum + rightsum
+    return total_sum
 
 
-# Taking level-order input using fast I/O method
-def takeInput():
-    levelOrder = list(map(int, stdin.readline().strip().split(" ")))
-    start = 0
-
-    length = len(levelOrder)
-
-    root = BinaryTreeNode(levelOrder[start])
-    start += 1
-
-    q = queue.Queue()
-    q.put(root)
-
-    while not q.empty():
-        currentNode = q.get()
-
-        leftChild = levelOrder[start]
-        start += 1
-
-        if leftChild != -1:
-            leftNode = BinaryTreeNode(leftChild)
-            currentNode.left = leftNode
-            q.put(leftNode)
-
-        rightChild = levelOrder[start]
-        start += 1
-
-        if rightChild != -1:
-            rightNode = BinaryTreeNode(rightChild)
-            currentNode.right = rightNode
-            q.put(rightNode)
-
-    return root
 
 
 # Main
-root = takeInput()
-print(getSum(root))
+root = tree_input()
+print(get_sum(root))

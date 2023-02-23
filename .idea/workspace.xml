@@ -44,8 +44,8 @@
       <recent name="C:\Users\m67fr\Documents\GitHub\CN-Pycharm\PACKAGES" />
     </key>
   </component>
-  <component name="RunManager" selected="Python._11_swap_two_nodes">
-    <configuration name="MERGE_SORT" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python._8_nodes_without_sibling">
+    <configuration name="_111_number_of_nodes_without_siblings" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CN-Pycharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -53,11 +53,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DSA/LinkedList" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DSA/BinaryTrees" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/LinkedList/MERGE_SORT.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/BinaryTrees/_111_number_of_nodes_without_siblings.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -66,7 +66,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_10_skip_m_delete_n" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="_1_sum_of_nodes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CN-Pycharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -74,11 +74,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DSA/LinkedList" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DSA/BinaryTrees" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/LinkedList/_10_skip_m_delete_n.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/BinaryTrees/_1_sum_of_nodes.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -87,7 +87,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_11_swap_two_nodes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="_5_height_of_tree" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CN-Pycharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -95,11 +95,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DSA/LinkedList" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DSA/BinaryTrees" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/LinkedList/_11_swap_two_nodes.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/BinaryTrees/_5_height_of_tree.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -108,7 +108,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_8_find_a_node_in_ll" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="_6_replace_node_with_depth" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CN-Pycharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,11 +116,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DSA/LinkedList" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DSA/BinaryTrees" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/LinkedList/_8_find_a_node_in_ll.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/BinaryTrees/_6_replace_node_with_depth.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -129,7 +129,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_9_even_after_odd_ll" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="_8_nodes_without_sibling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CN-Pycharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,11 +137,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DSA/LinkedList" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DSA/BinaryTrees" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/LinkedList/_9_even_after_odd_ll.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/BinaryTrees/_8_nodes_without_sibling.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python._11_swap_two_nodes" />
-        <item itemvalue="Python._10_skip_m_delete_n" />
-        <item itemvalue="Python._9_even_after_odd_ll" />
-        <item itemvalue="Python._8_find_a_node_in_ll" />
-        <item itemvalue="Python.MERGE_SORT" />
+        <item itemvalue="Python._8_nodes_without_sibling" />
+        <item itemvalue="Python._111_number_of_nodes_without_siblings" />
+        <item itemvalue="Python._6_replace_node_with_depth" />
+        <item itemvalue="Python._5_height_of_tree" />
+        <item itemvalue="Python._1_sum_of_nodes" />
       </list>
     </recent_temporary>
   </component>
