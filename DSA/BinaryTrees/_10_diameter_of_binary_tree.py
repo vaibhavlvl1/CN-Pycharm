@@ -90,3 +90,14 @@ def printLevelWise(root):
 root = takeInput()
 
 print(diameterOfBinaryTree(root))
+
+# better independant version
+"""
+def diameter_of_tree(root):
+    if root is None:
+        return 0
+    leftheight = diameter_of_tree(root.left)
+    rightheight = diameter_of_tree(root.right)
+    
+    return 1+max(leftheight,rightheight)
+"""

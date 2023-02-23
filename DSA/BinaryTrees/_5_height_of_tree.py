@@ -13,7 +13,7 @@ def height(root):
 
 
 # Main
-root = tree_input()
-
-h = height(root)
-print(h)
+# root = tree_input()
+#
+# h = height(root)
+# print(h)
