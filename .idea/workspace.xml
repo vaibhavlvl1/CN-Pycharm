@@ -44,7 +44,7 @@
       <recent name="C:\Users\m67fr\Documents\GitHub\CN-Pycharm\PACKAGES" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.testing_package">
+  <component name="RunManager" selected="Python.testingPackage">
     <configuration name="_112_remove_leaf_nodes" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CN-Pycharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -108,7 +108,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="_8_nodes_without_sibling" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="testingPackage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CN-Pycharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -116,11 +116,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DSA/BinaryTrees" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DSA/BInarySearchTree" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/BinaryTrees/_8_nodes_without_sibling.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/BInarySearchTree/testingPackage.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.testingPackage" />
         <item itemvalue="Python.testing_package" />
         <item itemvalue="Python._113_isBalanced" />
         <item itemvalue="Python._112_remove_leaf_nodes" />
         <item itemvalue="Python._1_sum_of_nodes" />
-        <item itemvalue="Python._8_nodes_without_sibling" />
       </list>
     </recent_temporary>
   </component>
@@ -203,6 +203,11 @@
           <url>file://$PROJECT_DIR$/DSA/LinkedList/_1_find_node.py</url>
           <line>5</line>
           <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DSA/BInarySearchTree/testingPackage.py</url>
+          <line>5</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

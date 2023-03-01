@@ -125,3 +125,28 @@ root = takeInput()
 
 pair = getMinAndMax(root)
 print(str(str(pair.minimum) + " " + str(pair.maximum)))
+
+
+
+"""
+combined method
+
+def min_max_binary_tree(root):
+    if root is None:
+        return 9999999,-1
+    
+    mini = root.data
+    maxi = root.data
+        
+    left_min,left_max = min_max_binary_tree(root.left)
+    right_min,right_max = min_max_binary_tree(root.right)
+    net_mini = min(left_min,right_min)
+    net_maxi = max(left_max,right_max)
+    
+    if mini > net_mini:
+        mini = net_mini
+    if maxi<net_maxi:
+        maxi = net_maxi
+    
+    return mini,maxi
+"""
