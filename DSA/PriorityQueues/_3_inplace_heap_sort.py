@@ -1,16 +1,20 @@
 """
  Inplace Heap Sort
 Send Feedback
-Given an integer array of size N. Sort this array (in decreasing order) using heap sort.
+Given an integer array of size N. Sort this array (in decreasing order)
+using heap sort.
 Note: Space complexity should be O(1).
 Input Format:
 
-The first line of input contains an integer, that denotes the value of the size of the array or N.
-The following line contains N space separated integers, that denote the value of the elements of the array.
+The first line of input contains an integer, that denotes the value of
+the size of the array or N.
+The following line contains N space separated integers,
+that denote the value of the elements of the array.
 
 Output Format :
 
-The first and only line of output contains array elements after sorting. The elements of the array in the output are separated by single space.
+The first and only line of output contains array elements after sorting.
+The elements of the array in the output are separated by single space.
 
 Constraints :
 
@@ -29,6 +33,7 @@ Sample Output 1:
 
 """
 
+# using min heap
 
 def heapifydown(arr, i, n):
     parentIndex = i

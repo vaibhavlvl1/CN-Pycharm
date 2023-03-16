@@ -13,7 +13,8 @@ Note:
 Input Format :
 
 The first line of input contains two integers, that denote the value of V and E.
-Each of the following E lines contains space separated two integers, that denote that there exists an edge between vertex a and b.
+Each of the following E lines contains space separated two integers, that denote that there exists an
+edge between vertex a and b.
 
 Output Format :
 
@@ -56,7 +57,7 @@ class Graph:
         self.adjMatrix[v2][v1] = 1
 
     def removeEdge(self, v1, v2):
-        if self.containEdge(v1, v2) is False:
+        if self.containsEdge(v1, v2) is False:
             return
         self.adjMatrix[v1][v2] = 0
         self.adjMatrix[v2][v1] = 0
