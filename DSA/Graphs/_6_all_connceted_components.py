@@ -123,3 +123,35 @@ if ans != None:
         for elem in component:
             print(elem, end=' ')
         print()
+
+
+
+
+"""
+my code for connected omponents without recursion
+
+it can also be done without queue by using recursion
+
+
+
+ def __print_connected(self,sv,visited):
+        q = queue.Queue()
+        q.put(sv)
+        visited[sv] = True
+        
+        while not q.empty():
+            u = q.get()
+            print(u)
+            for j in range(self.vertices):
+                if self.arr[u][j]>0 and visited[j]==False:
+                    q.put(j)
+                    visited[j] = True
+    
+    def print_connected(self):
+        visited = [False for i in range(self.vertices)]
+        
+        for i in range(self.vertices):
+            if visited[i]==False:
+                self.__print_connected(i,visited)
+            print()
+"""
