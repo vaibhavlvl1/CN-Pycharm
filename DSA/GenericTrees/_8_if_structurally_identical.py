@@ -71,3 +71,27 @@ if isIdentical(tree1, tree2):
     print('true')
 else:
     print('false')
+
+
+
+"""
+This works as well i havent tried base cases of no root
+
+def make_list(tree):
+    li = []
+    li.append(tree.data)
+    for child in tree.children:
+        temp = make_list(child)
+        for ele in temp:
+            li.append(ele)
+    return li
+        
+    
+
+def check(tree1,tree2):
+    
+    li1 = make_list(tree1)
+    li2 = make_list(tree2)
+    
+    return li1==li2
+"""

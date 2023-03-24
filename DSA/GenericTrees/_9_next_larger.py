@@ -1,4 +1,4 @@
-"""
+ """
  Next larger
 Send Feedback
 Given a generic tree and an integer n. Find and return the node with next larger element in the tree i.e. find a node with value just greater than n.
@@ -90,3 +90,29 @@ if ans == None:
     print()
 else:
     print(nextLargest(tree, n).data)
+
+
+
+
+
+
+"""
+this slight change works as well
+
+def next_larger(tree,n):
+    ans = None
+    if tree.data > n:
+        ans = tree.data
+        
+    for child in tree.children:
+        temp = next_larger(child,n)
+        
+        if ans is not None and temp is not None:
+            if temp<ans:
+                ans = temp
+        else:
+            ans = temp
+        
+        
+    return ans
+"""
