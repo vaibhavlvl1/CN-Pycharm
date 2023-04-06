@@ -33,40 +33,79 @@ Sample Output 1:
 
 """
 
-# using min heap
+# by min heap we get smallest ele on zeroth index
+# but we swap it to the end and perform heapify on rest of n-1 array
+# we again get min from that array and we swap it with n-1th ele
+# and so on . finally we get smallest elements from r to left
+# that is why we get descend sorted array (due to swapping) by using
+# min heap
 
-def heapifydown(arr, i, n):
-    parentIndex = i
-    leftChildIndex = 2 * parentIndex + 1
-    rightChildIndex = 2 * parentIndex + 2
 
-    while leftChildIndex < n:
-        minIndex = parentIndex
-        if arr[minIndex] < arr[leftChildIndex]:
-            minIndex = leftChildIndex
-        if rightChildIndex < n and arr[minIndex] < arr[rightChildIndex]:
-            minIndex = rightChildIndex
+# if we use max heap , we get ascend sorted array
 
-        if minIndex == parentIndex:
-            return
-        arr[minIndex], arr[parentIndex] = arr[parentIndex], arr[minIndex]
-        parentIndex = minIndex
-        leftChildIndex = 2 * parentIndex + 1
-        rightChildIndex = 2 * parentIndex + 2
+"""
+for desc sorted array
+"""
 
-    return
+
+def max_heapify(arr, n, i):
+    largest = i
+
+    left_child = largest * 2 + 1
+    right_child = largest * 2 + 2
+
+    if left_child < n and arr[largest] < arr[left_child]:
+        largest = left_child
+    if right_child < n and arr[largest] < arr[right_child]:
+        largest = right_child
+    if largest != i:
+        arr[largest], arr[i] = arr[i], arr[largest]
+        max_heapify(arr, n, largest)
 
 
 def heapsort(arr):
     n = len(arr)
-    for i in range((n // 2) - 1, -1, -1):
-        heapifydown(arr, i, n)
+    for i in range(n // 2 - 1, -1, -1):
+        max_heapify(arr, n, i)
 
     for i in range(n - 1, 0, -1):
         arr[0], arr[i] = arr[i], arr[0]
-        heapifydown(arr, 0, i)
+        max_heapify(arr, i, 0)
 
     return
+
+
+"""
+for ascd sorted array
+"""
+
+
+def min_heapify(arr, n, i):
+    smallest = i
+    left_child = smallest * 2 + 1
+    right_child = smallest * 2 + 2
+
+    if left_child < n and arr[left_child] < arr[smallest]:
+        smallest = left_child
+    if right_child < n and arr[smallest] > arr[right_child]:
+        smallest = right_child
+
+    if smallest != i:
+        arr[smallest], arr[i] = arr[i], arr[smallest]
+        min_heapify(arr, n, smallest)
+
+
+def heap_sort(arr):
+    n = len(arr)
+    for i in range(n // 2 - 1, -1, -1):
+        min_heapify(arr, n, i)
+
+    for i in range(n - 1, -1, -1):
+        arr[0], arr[i] = arr[i], arr[0]
+        min_heapify(arr, i, 0)
+
+
+
 
 
 n = input()
