@@ -43,12 +43,14 @@ class Queue:
             data = self.head.data
             self.head = self.head.next
             self.count -= 1
-        return data
+            return data
 
     def front(self):
         if self.count == 0:
             return -1
         return self.head.data
+
+
 
 
 # main
