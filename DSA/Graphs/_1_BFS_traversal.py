@@ -102,26 +102,26 @@ for i in range(E):
 
 g.bfs()
 
-"Alternate Method"
+"Alternate Method - scrapped it fails when unordered graphs is present"
 
-class Graph:
-    def __init__(self,vertices):
-        self.vertices = vertices
-
-
-    def __bfs_helper(self,sv,visited):
-        visited[sv] = True
-        print(sv)
-
-        for i in range(self.vertices):
-            if self.arr[sv][i]>0 and visited[i]==False:
-                print(i)
-                visited[i] = True
-
-                
-    def bfs(self):
-        visited = [False for i in range(self.vertices)]
-
-        for i in range(self.vertices):
-            if visited[i]==False:
-                self.__bfs_helper(i,visited)
+# class Graph:
+#     def __init__(self,vertices):
+#         self.vertices = vertices
+#
+#
+#     def __bfs_helper(self,sv,visited):
+#         visited[sv] = True
+#         print(sv)
+#
+#         for i in range(self.vertices):
+#             if self.arr[sv][i]>0 and visited[i]==False:
+#                 print(i)
+#                 visited[i] = True
+#
+#
+#     def bfs(self):
+#         visited = [False for i in range(self.vertices)]
+#
+#         for i in range(self.vertices):
+#             if visited[i]==False:
+#                 self.__bfs_helper(i,visited)
