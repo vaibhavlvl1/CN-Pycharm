@@ -12,3 +12,26 @@ for i in range (len(li)):
             print(li)
 
 print(li)
+
+
+"""
+single scan solution
+
+def sort012(arr):
+    l = 0
+    r = len(arr)-1
+    m = 0
+    
+    while m <= r:
+        if arr[m] == 1:
+            m = m+1
+        elif arr[m] ==0:
+            arr[l],arr[m] = arr[m],arr[l]
+            l = l+1
+            m = m+1
+        else:
+            arr[m],arr[r] = arr[r],arr[m]
+            r = r-1
+        
+    
+"""
