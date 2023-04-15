@@ -73,3 +73,19 @@ while t > 0:
     print()
 
     t -= 1
+
+
+
+"""
+def intersection(arr,arr2):
+    return list(filter(lambda x:x in arr,arr2))
+"""
+
+
+"""
+def intersections(arr,arr2):
+    s1 = set(arr)
+    s2 = set(arr2)
+    return [ele for ele in s2
+           if ele in s1]
+"""
