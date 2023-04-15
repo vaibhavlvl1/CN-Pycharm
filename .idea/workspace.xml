@@ -32,6 +32,7 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;ignore.virus.scanning.warn.message&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Users/vaibhav/Documents/GitHub/CN-Pycharm&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
@@ -44,7 +45,7 @@
       <recent name="C:\Users\m67fr\Documents\GitHub\CN-Pycharm\PACKAGES" />
     </key>
   </component>
-  <component name="RunManager" selected="Python._3_inplace_heap_sort">
+  <component name="RunManager" selected="Python.cc">
     <configuration name="_111_all_words_with_freq_k" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CN-Pycharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -129,7 +130,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="testingPackage" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="cc" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CN-Pycharm" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -137,11 +138,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DSA/BInarySearchTree" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/BInarySearchTree/testingPackage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/cc.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -152,11 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.cc" />
         <item itemvalue="Python._3_inplace_heap_sort" />
         <item itemvalue="Python._1_BFS_traversal" />
         <item itemvalue="Python._111_all_words_with_freq_k" />
         <item itemvalue="Python._111_check_bst" />
-        <item itemvalue="Python.testingPackage" />
       </list>
     </recent_temporary>
   </component>

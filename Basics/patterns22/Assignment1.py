@@ -48,3 +48,27 @@ while(i<=n):
 
     print()
     i=i+1
+
+
+
+"""
+def patten(n):
+    for i in range(1,n+1):
+        
+        nums = 1
+        for k in range(i):
+            print(nums,end=" ")
+            nums+=1
+            
+        for j in range(n-i,0,-1):
+            print("0",end=" ")
+        
+        for l in range(n-i,0,-1):
+            print("0",end=" ")
+            
+        nums2 = i
+        for j in range(i):
+            print(nums2,end=" ")
+            nums2-=1
+        print()
+"""
