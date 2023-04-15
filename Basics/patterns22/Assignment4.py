@@ -48,4 +48,27 @@ while(i<=n2):
     print()
     i = i+1
 
+"""
+for loop
 
+def arr(N):
+    n = (N+1)//2
+    m = N-n
+    for i in range(1,n+1):
+        
+        for z in range(i-1):
+            print(" ",end=" ")
+        
+        for k in range(i):
+            print("*",end=" ")
+        print()
+        
+    for i in range(m,0,-1):
+        
+        for z in range(i-1):
+            print(" ",end=" ")
+            
+        for k in range(i):
+            print("*",end=" ")
+        print()
+"""

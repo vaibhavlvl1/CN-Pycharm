@@ -37,3 +37,24 @@ while(i<=n):
 
     print()
     i = i+1
+
+"""
+For LOop
+
+def pat(n):
+    for i in range(0,n+1):
+        
+        for j in range(n):
+            if i==j:
+                print("x",end=" ")
+            else:
+                print("0",end = " ")
+        print("x",end=" ")        
+               
+        for j in range(n):
+            if n-j-1 == i:
+                print("x",end=" ")
+            else:
+                print("0",end=" ")
+        print()
+"""
