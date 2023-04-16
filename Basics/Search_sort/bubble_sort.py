@@ -1,14 +1,9 @@
-def bubble_sort(A):
+def bubble_sort(arr):
+    n = len(arr)
     for i in range(n):
-        temp =0
-        for j in range(i+1):
-            if A[i] < A[j]:
-                temp = A[j]
-                A[j]=A[i]
-                A[i]=temp
-
-
-    return A
+        for j in range(n - i - 1):
+            if arr[j] > arr[j + 1]:
+                arr[j], arr[j + 1] = arr[j + 1], arr[j]
 
 
 t = int(input())
@@ -22,9 +17,6 @@ for t in range(t):
 
     A = [int(x) for x in input().split()]
 
-    d = bubble_sort(A)
+    bubble_sort(A)
 
-    for ele in d:
-        print(ele, end=' ')
-
-    print()
+    print(A)
