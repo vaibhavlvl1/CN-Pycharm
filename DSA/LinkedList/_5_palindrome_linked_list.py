@@ -14,7 +14,7 @@ def midpoint(head):
 
 
 def palindrome(head):
-    if head is None or length(head) == 1:
+    if head is None or linked_list_length(head) == 1:
         return True
     mid = midpoint(head)
     head2 = mid.next
