@@ -1,8 +1,11 @@
 """
  Longest Consecutive Sequence
 Send Feedback
-You are given an array of unique integers that contain numbers in random order. You have to find the longest possible sequence of consecutive numbers using the numbers from given array.
-You need to return the output array which contains starting and ending element. If the length of the longest possible sequence is one, then the output array must contain only single element.
+You are given an array of unique integers that contain numbers in random order.
+You have to find the longest possible sequence of consecutive numbers using the numbers from given array.
+You need to return the output array which contains starting and ending element.
+If the length of the longest possible sequence is one,
+then the output array must contain only single element.
 Note:
 
 1. Best solution takes O(n) time.
@@ -39,7 +42,10 @@ Sample Input 2 :
 Sample Output 2 :
 
 7 9
-Explanation: Sequence should be of consecutive numbers. Here we have 2 sequences with same length i.e. [1, 2, 3] and [7, 8, 9], but we should select [7, 8, 9] because the starting point of [7, 8, 9] comes first in input array and therefore, the output will be 7 9, as we have to print starting and ending element of the longest consecutive sequence.
+Explanation: Sequence should be of consecutive numbers.
+Here we have 2 sequences with same length i.e. [1, 2, 3] and [7, 8, 9], but we should select [7, 8, 9]
+because the starting point of [7, 8, 9] comes first in input array and therefore,
+the output will be 7 9, as we have to print starting and ending element of the longest consecutive sequence.
 
 Sample Input 3 :
 

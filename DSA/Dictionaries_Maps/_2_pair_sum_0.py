@@ -39,6 +39,7 @@ def pairSum0(l, n):
     for ele in l:
         if 0 - ele in d:
             NoPairs += d[0 - ele]
+            print(0-ele,ele)
 
         if ele in d:
             d[ele] += 1
@@ -57,5 +58,22 @@ def takeInput():
     return arr, n
 
 
+
+
+
+def pair_sum(arr, k):
+    d = {}
+    c = 0
+    for ele in arr:
+        if 0 - ele in d:
+            print(0 - ele, ele)
+            c += d[0 - ele]
+        if ele in d:
+            d[ele] += 1
+        elif ele not in d:
+            d[ele] = 1
+
+    return c
+
 arr, n = takeInput()
-print(pairSum0(arr, n))
+print(pair_sum(arr, 0))
