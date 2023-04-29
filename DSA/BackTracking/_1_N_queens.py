@@ -76,3 +76,88 @@ def nQueen(n):
 n = int(input())
 nQueen(n)
 
+
+
+
+# method 1
+
+def solve_n_queen(n):
+    col = set()
+    pos_diag = set()
+    neg_diag = set()
+
+    res = []
+
+    board = [["."]*n for i in range(n)]
+    print(board)
+
+    def backtrack(r):
+        if r==n:
+            copy = ["".join(row) for row in board]
+            res.append(copy)
+            return
+
+        for c in range(n):
+            if c in col or r+c in pos_diag or r-c in neg_diag:
+                continue
+
+            col.add(c)
+            pos_diag.add(r+c)
+            neg_diag.add(r-c)
+
+            board[r][c]= "Q"
+
+            backtrack(r+1)
+
+            col.remove(c)
+            pos_diag.remove(r+c)
+            neg_diag.remove(r-c)
+            board[r][c]= "."
+    backtrack(0)
+    return res
+
+
+
+# method 2
+
+# method 2
+
+n = int(input("chess board size"))
+
+board = [[0] * n for i in range(n)]
+
+
+def check_col(board, row, col):
+    for i in range(row, -1, -1):
+        if board[i][col] == 1:
+            return False
+    return True
+
+
+def check_diag(board, row, col):
+    for i, j in zip(range(row, -1, -1), range(col, -1, -1)):
+        if board[i][j] == 1:
+            return False
+    for i, j in zip(range(row, -1, -1), range(col, n)):
+        if board[i][j] == 1:
+            return False
+    return True
+
+
+def nqn(board, row):
+    if row == n:
+        return True
+
+    for i in range(n):
+        if check_col(board, row, i) == True and check_diag(board, row, i) == True:
+            board[row][i] = 1
+            if nqn(board, row + 1):
+                return True
+            board[row][i] = 0
+    return False
+
+
+nqn(board, 0)
+
+for row in board:
+    print(row)
