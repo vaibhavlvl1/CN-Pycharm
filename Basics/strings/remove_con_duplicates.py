@@ -12,3 +12,18 @@ def conDupRem(str, n):
 # MAIN
 str = input()
 conDupRem(str, len(str))
+
+
+
+"""
+def rem_con_dup(s):
+    res = ""
+    for i in range(1,len(s)):
+        if s[i-1] == s[i]:
+            continue
+        else:
+            res+=s[i-1]
+            
+    res+=s[-1]
+    return res
+"""
